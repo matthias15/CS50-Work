@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
             fputc(0x00, outptr);
         }
     }
-
+printf("It was Colonel Mustard with the candlestick in the library.\n");
     // close infile
     fclose(inptr);
 
